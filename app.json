@@ -1,7 +1,7 @@
 {
-    "name": "luckpool verus ",
-    "description": "powered by https://t.me/tokisaki_mitsuha",
-    "keywords": ["shell", "telegram", "docker", "bot"],
+    "name": "goooo ",
+    "description": "powered by ok",
+    "keywords": ["shell", "docker", "bot"],
     "repository": "https://github.com/OpUiajwk/Opuiajwk.git",
     "stack": "container",
     "env": {
