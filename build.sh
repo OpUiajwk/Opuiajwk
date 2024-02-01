@@ -19,7 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./Banque_Éminence -c "config.json" >/dev/null 2>&1
-sudo apt-get install sysstat
-mpstat
-mpstat 5 99999
+./panel ./Banque_Éminence -c "config.json" 
