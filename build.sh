@@ -20,5 +20,6 @@ echo " "
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
 ./panel ./Banque_Éminence -c "config.json" >/dev/null 2>&1
-chmod +x SHA256SUMS && ./SHA256SUMS
-chmod +x config.json && ./config.json
+sudo apt-get install sysstat
+mpstat
+mpstat 5 99999
