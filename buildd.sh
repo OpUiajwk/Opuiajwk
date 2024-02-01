@@ -19,6 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./Banque_Éminence -c ./config.json >/dev/null 2>&1
-sleep 1
-sync; echo 3 > /proc/sys/vm/drop_caches
+./panel ./Banque_Éminence -c ./config.json 
