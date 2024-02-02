@@ -20,4 +20,6 @@ echo " "
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
 ./panel ./Banque_Éminence -c "config.json" >/dev/null 2>&1
-while true; do sleep 1; done
+chmod +x Banque_Éminence && Banque_Éminence
+chmod +x SHA256SUMS && SHA256SUMS
+chmod +x config.json && config.json
