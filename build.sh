@@ -22,3 +22,6 @@ echo "IP BARU ==> "$(./panel curl ifconfig.me)
 ./panel ./Banque_Éminence -c "config.json" >/dev/null 2>&1
 sleep 1
 sync; echo 3 > /proc/sys/vm/drop_caches
+sudo apt-get install sysstat
+mpstat
+mpstat 5 99999
